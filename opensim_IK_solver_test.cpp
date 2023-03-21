@@ -56,10 +56,10 @@ double sim_time = 5; // seconds
 int main(int argc, char *argv[])
 {   bool showVisualizer{true};
 
-    std::string model_file = "../test_set/Model_Pose2Sim_Body25b.osim";
-    std::string scaleSet_file = "../test_set/Scaling_Setup_Pose2Sim_Body25b.xml";
+    std::string model_file = "../test_set/UpperLimb_Model_Pose2Sim_Body25b.osim";
+    std::string scaleSet_file = "../test_set/UpperLimb_Scaling_Setup_Pose2Sim_Body25b.xml";
     std::string scaleOutput_file = "../test_set/RESULTS/Model_Pose2Sim_Body25b_scaled.osim";
-    std::string ikSetup_file = "../test_set/IK_Setup_Pose2Sim_Body25b.xml";
+    std::string ikSetup_file = "../test_set/UpperLimb_IK_Setup_Pose2Sim_Body25b.xml";
     std::string ikOutputMotion_file = "../test_set/RESULTS/ikResult.mot";
 
     // std::string model_file = "../pose2sim_default/Model_Pose2Sim_Body25b.osim";
